@@ -15,6 +15,7 @@ spec:
       containers:
         - name: my-frontend-app
           image: sample-app # Update this line with your Docker image
+          imagePullPolicy: Never
           ports:
             - containerPort: 80
 
