@@ -21,13 +21,13 @@ spec:
     canary:
       steps:
         - setWeight: 10
-          pause:
+        - pause:
             duration: 60s
         - setWeight: 25
-          pause:
+        - pause:
             duration: 60s
         - setWeight: 50
-          pause:
+        - pause:
             duration: 60s
         - setWeight: 100
   # Add additional fields as needed
